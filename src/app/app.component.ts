@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   username=''
+
+  isEmptyString(event: any){
+    console.log(event);
+  }
+  onDelete(){
+    this.username=""
+  }
 }
