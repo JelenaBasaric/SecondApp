@@ -7,5 +7,5 @@
 
 <input type="text" class="form-control" [(ngModel)]="username">
 <p >Username is {{username}}</p>
-<button class="btn btn-primary" (click)="onDelete()">Delete</button>
+<button class="btn btn-primary" [disabled]="isEmptyString()"(click)="onDelete()" [disabled]="isEmptyString()">Delete</button>
 
