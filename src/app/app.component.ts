@@ -9,7 +9,7 @@ export class AppComponent {
   username=''
 
   isEmptyString(){
-   return this.username===""? true:false
+   return this.username===;
   }
   onDelete(){
     this.username=""
